@@ -18,12 +18,15 @@ jobs:
         run: npm install
       - name: Build 🔧
         run: npm run prod
+      - name: Set outputs
+        id: vars
+        run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.5.9
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: build
-          COMMIT_MESSAGE: Deploying to gh-pages from @${{ env.SHORT-SHA }}
+          COMMIT_MESSAGE: Deploying to gh-pages from ${{ steps.vars.outputs.sha_short }}
 
 
