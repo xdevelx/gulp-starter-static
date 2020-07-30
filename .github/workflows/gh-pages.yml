@@ -22,7 +22,7 @@ jobs:
             ${{ runner.OS }}-
       - name: Install Node.js dependencies
         run: npm ci
-      - name: Build
+      - name: Build 🔧
         run: npm run prod
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.5.9
