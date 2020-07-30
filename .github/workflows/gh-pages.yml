@@ -1,5 +1,8 @@
 name: Deploy to GitHub Pages
 
+env:
+  SHORT-SHA: $(git rev-parse --short=4 ${{ github.sha }})
+
 on: [push]
 
 jobs:
@@ -21,6 +24,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: build
-          COMMIT_MESSAGE: Deploying to gh-pages from @${{ github.sha }}
+          COMMIT_MESSAGE: Deploying to gh-pages from @${{ env.SHORT-SHA }}
 
 
