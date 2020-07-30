@@ -1,4 +1,4 @@
-name: Deploy
+name: Github pages
 
 on: [push]
 
@@ -21,7 +21,7 @@ jobs:
             ${{ runner.OS }}-node-
             ${{ runner.OS }}-
       - name: Install Node.js dependencies
-        run: npm ci
+        run: npm install
       - name: Build 🔧
         run: npm run prod
       - name: Deploy 🚀
