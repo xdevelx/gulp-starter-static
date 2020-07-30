@@ -1,0 +1,8 @@
+/node_modules/
+/build/
+.idea
+.cache
+.vscode
+.publish
+*.sublime-project
+*.sublime-workspace

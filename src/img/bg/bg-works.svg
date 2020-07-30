@@ -1,0 +1,50 @@
+<svg id="BG" xmlns="http://www.w3.org/2000/svg" width="1920" height="635.5" viewBox="0 0 1920 635.5">
+<defs>
+    <style>
+      .cls-1, .cls-2, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+        stroke-linecap: round;
+      }
+
+      .cls-1 {
+        stroke: #ff795e;
+        stroke-width: 40px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        opacity: 0.2;
+      }
+
+      .cls-2 {
+        stroke: #f64f6e;
+        stroke-width: 45px;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #010101;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        stroke-width: 2px;
+      }
+
+      .cls-5, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-6 {
+        stroke: #000;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="1950.5" cy="127.5" r="107.5"/>
+  <ellipse id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-2" cx="-29.5" cy="500.5" rx="107.5" ry="112.5"/>
+  <g id="BG1" class="cls-3">
+    <circle class="cls-4" cx="1501" cy="358" r="10"/>
+    <path class="cls-5" d="M267,2501l7-7,8,5-2,9-8,1Z" transform="translate(0 -2256)"/>
+    <path class="cls-5" d="M1526,2355l7-7,8,5-2,9-8,1Z" transform="translate(0 -2256)"/>
+    <circle class="cls-4" cx="536" cy="141" r="10"/>
+    <path class="cls-6" d="M595,2859l8-8,10,6-2,10-10,2Z" transform="translate(0 -2256)"/>
+    <path class="cls-5" d="M1372,2815l7-7,8,5-2,9-8,1Z" transform="translate(0 -2256)"/>
+  </g>
+</svg>

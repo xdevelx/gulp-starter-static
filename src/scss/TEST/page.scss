@@ -1,0 +1,18 @@
+// stylelint-disable property-no-vendor-prefix
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+.page__footer {
+  margin-top: auto;
+}

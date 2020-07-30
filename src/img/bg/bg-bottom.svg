@@ -1,0 +1,90 @@
+<svg id="Группа_1" data-name="Группа 1" xmlns="http://www.w3.org/2000/svg" width="2260" height="2047" viewBox="0 0 2260 2047">
+<defs>
+    <style>
+      .cls-1, .cls-13, .cls-14 {
+        opacity: 0.2;
+      }
+
+      .cls-10, .cls-11, .cls-13, .cls-14, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #f7546c;
+      }
+
+      .cls-3 {
+        stroke: #fe7360;
+      }
+
+      .cls-10, .cls-11, .cls-3, .cls-4, .cls-5, .cls-6, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-5 {
+        stroke: #f9596a;
+      }
+
+      .cls-6 {
+        stroke: #fe755f;
+      }
+
+      .cls-7, .cls-9 {
+        stroke: #f64f6e;
+      }
+
+      .cls-8 {
+        stroke: #fb6864;
+      }
+
+      .cls-10 {
+        stroke: #fd7460;
+      }
+
+      .cls-11, .cls-13 {
+        stroke: #ff795e;
+      }
+
+      .cls-12 {
+        opacity: 0.3;
+      }
+
+      .cls-14 {
+        stroke: #f85a6a;
+      }
+    </style>
+  </defs>
+  <g id="BG">
+    <g id="forms_" data-name="forms " class="cls-1">
+      <circle class="cls-2" cx="1082" cy="1894" r="10"/>
+      <path class="cls-3" d="M734,1907l7-7,8,5-2,9-8,1Z" transform="translate(-38 -48)"/>
+      <path class="cls-4" d="M1052,1610l8-8,10,5-2,11-10,2Z" transform="translate(-38 -48)"/>
+      <path class="cls-5" d="M1309,1716l7-7,8,4-2,10-8,1Z" transform="translate(-38 -48)"/>
+      <path class="cls-6" d="M646,1661l7-7,8,5-2,9-8,1Z" transform="translate(-38 -48)"/>
+    </g>
+  </g>
+  <g id="BG-2" data-name="BG">
+    <g id="forms" class="cls-1">
+      <circle class="cls-7" cx="262" cy="110" r="10"/>
+      <circle class="cls-7" cx="1544" cy="466" r="10"/>
+      <path class="cls-8" d="M662,633l7-7,8,5-2,9-8,1Z" transform="translate(-38 -48)"/>
+      <path id="Shape_8_copy" data-name="Shape 8 copy" class="cls-8" d="M335,531l7-7,8,5-2,9-8,1Z" transform="translate(-38 -48)"/>
+      <path class="cls-9" d="M1159,57l8-8,10,5-2,11-10,2Z" transform="translate(-38 -48)"/>
+      <path class="cls-10" d="M1393,213l7-7,8,4-2,10-8,1Z" transform="translate(-38 -48)"/>
+      <path id="Shape_10_copy" data-name="Shape 10 copy" class="cls-10" d="M1679,182l7-7,8,4-2,10-8,1Z" transform="translate(-38 -48)"/>
+      <path class="cls-11" d="M659,118l7-7,8,5-2,9-8,1Z" transform="translate(-38 -48)"/>
+    </g>
+  </g>
+  <g id="BG-3" data-name="BG" class="cls-12">
+    <circle id="Ellipse_811_copy_3" data-name="Ellipse 811 copy 3" class="cls-13" cx="1759" cy="1547" r="400"/>
+    <circle id="Ellipse_811_copy_3-2" data-name="Ellipse 811 copy 3" class="cls-14" cx="1760" cy="1546" r="500"/>
+    <circle id="Ellipse_811_copy_3-3" data-name="Ellipse 811 copy 3" class="cls-13" cx="1759" cy="1546" r="300"/>
+    <g id="_2" data-name="2">
+      <circle id="Ellipse_811_copy_3-4" data-name="Ellipse 811 copy 3" class="cls-13" cx="500" cy="977" r="400"/>
+      <circle id="Ellipse_811_copy_3-5" data-name="Ellipse 811 copy 3" class="cls-14" cx="501" cy="976" r="500"/>
+      <circle id="Ellipse_811_copy_3-6" data-name="Ellipse 811 copy 3" class="cls-13" cx="500" cy="976" r="300"/>
+    </g>
+  </g>
+</svg>

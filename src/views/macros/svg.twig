@@ -1,0 +1,9 @@
+{% macro icon(icon, class, width = 36, height = 36) %}
+  <svg class="svg-icon svg-icon--{{ icon }}{{ class ? ' ' ~ class : '' }}"
+       aria-hidden="true"
+       width="{{ width }}"
+       height="{{ height }}"
+       focusable="false">
+    <use xlink:href="{{ '#' ~ icon }}" />
+  </svg>
+{% endmacro %}

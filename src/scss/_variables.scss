@@ -1,0 +1,117 @@
+// This file contains all application-wide Sass variables.
+
+// Vendor variables and settings
+// -----------------------------
+
+// Bootstrap settings
+
+//$font-family-base
+//$font-size-base
+//$line-height-base
+//
+//$body-color
+//$body-bg
+//
+//$link-color
+//$link-decoration
+//$link-hover-color
+//$link-hover-decoration
+//
+//
+//$headings-margin-bottom
+//$paragraph-margin-bottom
+//
+//$table-cell-padding
+//$table-caption-color
+//
+//$label-margin-bottom
+
+// LostGrid settings (http://lostgrid.org/docs.html#global-grid-settings)
+@lost flexbox flex; // @lost flexbox accepts flex or no-flex (default)
+@lost gutter 30px;
+
+// Include-media settings (https://include-media.com/documentation)
+//
+// Creates a list of global breakpoints (https://include-media.com/documentation/#variable-breakpoints).
+$breakpoints: (
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
+  "xxl": 1440px
+);
+
+// Project variables
+// -----------------
+
+$black:          #000; // hsl(0, 0%, 0%)
+$gray-lightest:  #faf8fb; // hsl(280, 27%, 98%) gray
+$gray--lighter:  #f2f2f2; // hsl(0, 0%, 95%) gray 05
+$gray--light:    #ebebeb; // hsl(0, 0%, 92%) gray 08
+$gray:           #ccc; // hsl(0, 0%, 80%) gray 20
+$gray--dark:     #868995; // hsl(228, 7%, 55%) gray
+$gray--darker:   #5e606a; // hsl(230, 6%, 39%) gray
+$gray-darkest:   #383d52; // hsl(228, 19%, 27%) gray
+$white:          #fff; // hsl(0, 0%, 100%)
+
+$violet:         #883eca; // hsl(272, 57%, 52%)
+$violet--medium: #7f38bd; // hsl(272, 54%, 48%)
+$violet--dark:   #65269d; // hsl(272, 61%, 38%)
+$violet--light:  #f0e2ff; // hsl(269, 100%, 94%)
+$purple:         #510856; // hsl(296, 83%, 18%)
+
+$pink:           #fb0275; // hsl(332, 98%, 50%)
+$pink--light:    #d695b3; // hsl(332, 44%, 71%)
+
+$blue--light:    #3594dd; // hsl(206, 71%, 54%)
+
+$color-primary: $violet;
+$color-primary--medium: $violet--medium;
+$color-primary--dark: $violet--dark;
+$color-primary--light: $violet--light;
+$color-secondary: $pink;
+$color-secondary--light: $pink--light;
+$color-tertiary: $blue--light;
+
+$font-family--primary: "Open Sans", sans-serif;
+$font-family--secondary: muller, sans-serif;
+$font-family--monospace: sfmono-regular, menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
+
+$font-size--base: 14px;
+$font-size--lg: 22px;
+$font-size--sm: 14px;
+
+$border-radius: 3px;
+
+$box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
+
+// Body
+
+$body-bg: $white;
+$body-color: $gray--darker;
+
+// Links
+
+$link-color: blue;
+$link-color--hover: green;
+$link-decoration: none;
+$link-decoration--hover: underline;
+
+// Typography
+
+$paragraph-margin-top: 1rem;
+$headings-margin-top: 1.5rem;
+$list-margin-top: 1rem;
+$label-margin-bottom: 1rem;
+
+$headings-font-family: null;
+$headings-font-weight: 500;
+$headings-line-height: 1.2;
+$headings-color: null;
+
+$font-size-h1: 26px;
+$font-size-h2: 24px;
+$font-size-h3: 22px;
+$font-size-h4: 21px;
+$font-size-h5: 20px;
+$font-size-h6: 18px;

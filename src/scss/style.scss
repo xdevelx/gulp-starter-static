@@ -1,0 +1,12 @@
+//@import "sprites/*";
+@import "variables";
+@import "mixins";
+@import "vendors";
+@import "fonts";
+//@import "reboot";
+
+// Common blocks styles (BEM)
+@import "common.blocks/*";
+// Utility blocks styles (used as mixes - https://ru.bem.info/methodology/css/#Стилизация-групп-блоков)
+@import "utility.blocks/*";
+

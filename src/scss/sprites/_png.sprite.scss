@@ -1,0 +1,28 @@
+$coins: (0px, 0px, 64px, 64px, "coins");
+$debit-card: (-64px, 0px, 32px, 32px, "debit-card");
+$money-small: (0px, -64px, 24px, 24px, "money-small");
+$money: (-64px, -32px, 32px, 32px, "money");
+$png-sprites: ($coins, $debit-card, $money-small, $money, );
+
+@mixin png-sprite($sprite) {
+  width: nth($sprite, 3);
+  height: nth($sprite, 4);
+  background-image: url("../img/sprites/sprite.png");
+  background-repeat: no-repeat;
+  background-position: nth($sprite, 1) nth($sprite, 2);
+}
+
+// The `png-sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include png-sprites($png-sprites);
+@mixin png-sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 5);
+
+    .#{$sprite-name} {
+      @include png-sprite($sprite);
+    }
+  }
+}
+@include png-sprites($png-sprites);

@@ -1,0 +1,15 @@
+{% extends "layouts/base.twig" %}
+
+{%
+  set page = {
+    'title': 'Homepage',
+    'descr': 'Description of the home page.',
+    'class': ['page', 'page--home'], 
+  }
+%}
+
+{% block main %}
+  <main class="main">
+    Main content
+  </main>
+{% endblock %}

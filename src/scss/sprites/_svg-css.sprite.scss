@@ -1,0 +1,28 @@
+$business: (0 0, 36px, 36px, "business");
+$debit-card: (100% 0, 36px, 36px, "debit-card");
+$money: (0 100%, 36px, 36px, "money");
+$wallet: (100% 100%, 36px, 36px, "wallet");
+$svg-sprites: ($business, $debit-card, $money, $wallet, );
+
+@mixin svg-sprite($sprite) {
+  width: nth($sprite, 2);
+  height: nth($sprite, 3);
+  background-image: url("../img/sprites/sprite.svg");
+  background-repeat: no-repeat;
+  background-position: nth($sprite, 1);
+}
+
+// The `svg-sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include svg-sprites($svg-sprites);
+@mixin svg-sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 4);
+
+    .icon-#{$sprite-name} {
+      @include svg-sprite($sprite);
+    }
+  }
+}
+@include svg-sprites($svg-sprites);
