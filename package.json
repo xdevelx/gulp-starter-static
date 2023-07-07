@@ -48,7 +48,7 @@
     "merge-stream": "^2.0.0",
     "postcss-css-variables": "^0.14.0",
     "postcss-pxtorem": "^4.0.0",
-    "stylelint": "^13.6.1",
+    "stylelint": "^15.10.1",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
     "stylelint-scss": "^3.18.0",
